@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Girlfriend's Day ❤️</title>
+  <style>
+    :root {
+      --bg-color: #fff0f3;
+      --card-bg: #ffffff;
+      --accent: #ff4d6d;
+      --accent-hover: #c9184a;
+      --text-main: #590d22;
+      --text-muted: #800f2f;
+      --shadow: 0 10px 25px rgba(255, 77, 109, 0.15);
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 850px;
+      width: 100%;
+      text-align: center;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+    }
+
+    /* Hero / Favorite Image Section */
+    .hero-section {
+      margin-bottom: 3rem;
+    }
+
+    .fav-card {
+      background: var(--card-bg);
+      padding: 1.25rem;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 2px solid #ffccd5;
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+
+    .fav-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .badge {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--accent);
+      color: white;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      box-shadow: 0 4px 10px rgba(255, 77, 109, 0.3);
+    }
+
+    .fav-card img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      border-radius: calc(var(--radius) - 6px);
+      display: block;
+    }
+
+    .caption {
+      margin-top: 1rem;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    /* 4-Image Grid Section */
+    .gallery-title {
+      font-size: 1.5rem;
+      margin-bottom: 1.25rem;
+      color: var(--text-muted);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .photo-card {
+      background: var(--card-bg);
+      padding: 0.75rem;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      transition: transform 0.3s ease;
+    }
+
+    .photo-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .photo-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: calc(var(--radius) - 10px);
+      display: block;
+    }
+
+    .photo-card p {
+      margin-top: 0.6rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    footer {
+      margin-top: 3.5rem;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .fav-card img {
+        height: 300px;
+      }
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Happy Girlfriend's Day! ❤️</h1>
+      <p>A few of my absolute favorite moments with you.</p>
+    </header>
+
+    <!-- Main / Favorite Picture -->
+    <section class="hero-section">
+      <div class="fav-card">
+        <span class="badge">⭐ My Absolute Favorite</span>
+        <!-- Replace src below with your top favorite photo -->
+        <img src="C:\Users\jages\OneDrive\Pictures\tara and ra\WhatsApp Image 2026-07-31 at 11.35.38 PM (2).jpeg" alt="Favorite Picture">
+        <div class="caption">The best day ever together 💕</div>
+      </div>
+    </section>
+
+    <!-- 4 Photo Grid Below -->
+    <h2 class="gallery-title">More Favorite Memories</h2>
+    <section class="gallery-grid">
+
+      <div class="photo-card">
+        <!-- Photo 1 -->
+        <img src="C:\Users\jages\OneDrive\Pictures\tara and ra\WhatsApp Image 2026-07-31 at 11.35.39 PM.jpeg" alt="Memory 1">
+        <p>Our coffee dates ☕</p>
+      </div>
+
+      <div class="photo-card">
+        <!-- Photo 2 -->
+        <img src="C:\Users\jages\OneDrive\Pictures\tara and ra\WhatsApp Image 2026-07-31 at 11.35.40 PM (1).jpeg" alt="Memory 2">
+        <p>Weekend getaways 🌅</p>
+      </div>
+
+      <div class="photo-card">
+        <!-- Photo 3 -->
+        <img src="C:\Users\jages\OneDrive\Pictures\tara and ra\WhatsApp Image 2026-07-31 at 11.35.40 PM.jpeg" alt="Memory 3">
+        <p>Always laughing with you 😊</p>
+      </div>
+
+      <div class="photo-card">
+        <!-- Photo 4 -->
+        <img src="C:\Users\jages\OneDrive\Pictures\tara and ra\WhatsApp Image 2026-07-31 at 11.35.38 PM (1).jpeg" alt="Memory 4">
+        <p>Forever my favorite person ✨</p>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>Made with ❤️ for you</p>
+    </footer>
+  </div>
+
+</body>
+</html>
